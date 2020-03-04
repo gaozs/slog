@@ -43,8 +43,8 @@ var logpref = [...]string{
 var logflags = [...]int{
 	DEBUG: log.LstdFlags | log.Lshortfile,
 	INFO:  log.LstdFlags,
-	WARN:  log.LstdFlags,
-	ERROR: log.LstdFlags,
+	WARN:  log.LstdFlags | log.Lshortfile,
+	ERROR: log.LstdFlags | log.Lshortfile,
 	FATAL: log.LstdFlags | log.Lshortfile,
 }
 
