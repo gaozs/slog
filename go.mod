@@ -1,3 +1,3 @@
-module github.com/gaozs/slog
+module gitee.com/gaozhisheng/slog
 
-go 1.13
+go 1.16
