@@ -1,3 +1,3 @@
-module gitee.com/gaozhisheng/slog
+module gaozs.ddns.net/go/slog
 
 go 1.16
